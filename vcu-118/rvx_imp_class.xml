@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<rvx>
+  <imp_class_list>
+    <imp_class>
+      <name>vcu-118</name>
+      <display_name>VCU-118-fpga</display_name>
+      <type>fpga</type>
+      <jtag_khz>10000</jtag_khz>
+      <fpga_info>
+        <part>xcvu9p-flga2104-2L-e</part>
+        <image_size>80159233</image_size>
+        <flash_interface_type>spix8</flash_interface_type>
+        <cfg_mem>mt25qu01g-spi-x1_x2_x4_x8</cfg_mem>
+        <dram>ddr4</dram>
+        <extenral_clk_mhz>125d</extenral_clk_mhz>
+        <active_high_reset/>
+      </fpga_info>
+      <usb2jtag>0403:6011</usb2jtag>
+      <usb2uart>0403:6011:01</usb2uart>
+    </imp_class>
+  </imp_class_list>
+</rvx>
