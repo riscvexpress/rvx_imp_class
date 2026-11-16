@@ -8,7 +8,7 @@
       <jtag_khz>10000</jtag_khz>
       <fpga_info>
         <part>xcvu9p-flga2104-2L-e</part>
-        <image_size>80159233</image_size>
+        <bitstream_size>80159233</bitstream_size>
         <flash_interface_type>spix8</flash_interface_type>
         <cfg_mem>mt25qu01g-spi-x1_x2_x4_x8</cfg_mem>
         <dram>ddr4</dram>

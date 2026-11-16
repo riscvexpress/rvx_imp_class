@@ -8,7 +8,7 @@
       <jtag_khz>10000</jtag_khz>
       <fpga_info>
         <part>xc7k325tffg900-2</part>
-        <image_size>11443722</image_size>
+        <bitstream_size>11443722</bitstream_size>
         <flash_interface_type>spix4</flash_interface_type>
         <cfg_mem>s25fl256sxxxxxx0-spi-x1_x2_x4</cfg_mem>
         <dram>ddr3</dram>
@@ -17,6 +17,22 @@
         <clk_fan_khz>25</clk_fan_khz>
         <flash_sck_uses_startupe2>True</flash_sck_uses_startupe2>
       </fpga_info>
+      <flash>
+        <unified_flash/>
+        <qspi/>
+        <device>s25fl256sxxxxxx0</device>
+        <size>0x2000000</size>
+        <spi_freq_hz>25000000</spi_freq_hz>
+        <sector_size>0x10000</sector_size>
+        <flash_layout>
+          <bitstream_base_addr>0x0</bitstream_base_addr>
+          <bitstream_size>0xAF0000</bitstream_size>
+          <binary_base_addr>0xAF0000</binary_base_addr>
+          <binary_size>0x400000</binary_size>
+          <fs_base_addr>0xEF0000</fs_base_addr>
+          <fs_size>0x1110000</fs_size>
+        </flash_layout>
+      </flash>
       <usb2jtag>0403:6011</usb2jtag>
       <usb2uart>0403:6011:01</usb2uart>
     </imp_class>
