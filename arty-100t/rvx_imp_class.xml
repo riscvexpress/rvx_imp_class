@@ -11,9 +11,10 @@
         <flash_interface_type>spix4</flash_interface_type>
         <cfg_mem>s25fl128sxxxxxx0-spi-x1_x2_x4</cfg_mem>
         <dram>ddr3</dram>
-        <extenral_clk_mhz>100</extenral_clk_mhz>
+        <external_clk_mhz>100</external_clk_mhz>
         <clk_dram_ref_mhz>300</clk_dram_ref_mhz>
         <clk_dram_sys_mhz>150</clk_dram_sys_mhz>
+        <clk_eth_phy_ref_mhz>25</clk_eth_phy_ref_mhz>
         <exclude_port>LPSDR_DQ</exclude_port>
         <exclude_port>sdram_cell_port</exclude_port>
       </fpga_info>

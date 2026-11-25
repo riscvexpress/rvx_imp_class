@@ -12,9 +12,9 @@
         <flash_interface_type>spix4</flash_interface_type>
         <cfg_mem>s25fl256sxxxxxx0-spi-x1_x2_x4</cfg_mem>
         <dram>ddr3</dram>
-        <extenral_clk_mhz>200d</extenral_clk_mhz>
+        <external_clk_mhz>200d</external_clk_mhz>
         <clk_dram_sys_mhz>200</clk_dram_sys_mhz>
-        <clk_fan_khz>25</clk_fan_khz>
+        <clk_eth_phy_ref_mhz>25</clk_eth_phy_ref_mhz>
         <flash_sck_uses_startupe2>True</flash_sck_uses_startupe2>
       </fpga_info>
       <flash>

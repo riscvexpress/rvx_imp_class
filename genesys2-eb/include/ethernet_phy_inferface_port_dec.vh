@@ -1,0 +1,9 @@
+	,eth_rxck
+	,eth_rxctl
+	,eth_rxd
+	,eth_txck
+	,eth_txctl
+	,eth_txd
+	,eth_mdc
+	,eth_mdio
+	,eth_phyrst_n

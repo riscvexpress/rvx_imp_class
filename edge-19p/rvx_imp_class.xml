@@ -12,7 +12,7 @@
         <flash_interface_type>spix8</flash_interface_type>
         <cfg_mem>s25fl512s-spi-x1_x2_x4_x8</cfg_mem>
         <dram>ddr4</dram>
-        <extenral_clk_mhz>50,100</extenral_clk_mhz>
+        <external_clk_mhz>50,100</external_clk_mhz>
       </fpga_info>
       <flash>
         <separate_flash/>
